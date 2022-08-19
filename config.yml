@@ -1,0 +1,122 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_osx: false
+osx_script: "~/.osx --no-restart"
+
+configure_visual_studio_code: true
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: false
+dockitems_remove: []
+# - Launchpad
+# - TV
+# - Podcasts
+# - 'App Store'
+dockitems_persist: []
+# - name: "Sublime Text"
+#   path: "/Applications/Sublime Text.app/"
+#   pos: 5
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - bat
+  - coreutils
+  - exa
+  - fd
+  - ffmpeg
+  - findutils
+  - fzf
+  - git
+  - git-redate
+  - jenv
+  - jq
+  - lua
+  - mackup
+  - maven
+  - media-info
+  - neovim
+  - neofetch
+  - node
+  - ocrmypdf
+  - pdfgrep
+  - rename
+  - ripgrep
+  - ruby
+  - tesseract-lang # language packs for ocr
+  - tldr
+  - tokei
+  - trash
+  - wget
+  - youtube-dl
+  - zsh
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+  - AdoptOpenJDK/openjdk
+  - PotatoLabs/homebrew-git-redate
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - adoptopenjdk8
+  - alfred
+  - appcleaner
+  - bitwarden
+  - chromedriver
+  - dropbox
+  - font-hack-nerd-font
+  - firefox-developer-edition
+  - google-chrome
+  - google-backup-and-sync
+  - handbrake
+  - iina
+  - insomnia
+  - intellij-idea
+  - iterm2
+  - jdownloader
+  - kap
+  - kodi
+  - losslesscut
+  - microsoft-office
+  - microsoft-teams
+  - mkvtoolnix
+  - notion
+  - portfolioperformance
+  - qlcolorcode
+  - qlmarkdown
+  - qlstephen
+  - qlvideo
+  - quicklook-json
+  - rectangle
+  - slack
+  - the-unarchiver
+  - ticktick
+  - tunnelblick
+  - visual-studio-code
+  - webstorm
+  - whatsapp
+  - zoomus
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are installed, eg. through homebrew.
+# state: present/absent/latest, default: present
+gem_packages: []
+- name: bundler
+  state: latest
+- name: jekyll
+  state: latest
+npm_packages: []
+- name: @angular/cli
+  state: latest
+- name: fkill-cli
+  state: latest
+- name: typescript
+  state: latest
+pip_packages: []
+- name: flake8
+  state: latest
+- name: pigar
+  state: latest

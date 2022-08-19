@@ -1,0 +1,9 @@
+---
+- name: Disabling prompt when quitting iTerm
+  command: "defaults write com.googlecode.iterm2 PromptOnQuit -bool false"
+
+- name: Disabling changing font size with pinch gesture in iTerm
+  command: "defaults write com.googlecode.iterm2 PinchToChangeFontSizeDisabled -bool true"
+
+- name: Installing color theme for iTerm (opening file)
+  command: "open "$HOME/dev/ansible-mac-os-setup/files/iTerm2/Dracula.itermcolors""
