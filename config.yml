@@ -104,19 +104,19 @@ homebrew_cask_apps:
 # Note: You are responsible for making sure the required package managers are installed, eg. through homebrew.
 # state: present/absent/latest, default: present
 gem_packages: []
-- name: bundler
-  state: latest
-- name: jekyll
+  - name: bundler
+    state: latest
+  - name: jekyll
   state: latest
 npm_packages: []
-- name: @angular/cli
-  state: latest
-- name: fkill-cli
-  state: latest
-- name: typescript
-  state: latest
+  - name: @angular/cli
+    state: latest
+  - name: fkill-cli
+    state: latest
+  - name: typescript
+    state: latest
 pip_packages: []
-- name: flake8
-  state: latest
-- name: pigar
-  state: latest
+  - name: flake8
+    state: latest
+  - name: pigar
+    state: latest
