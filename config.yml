@@ -53,7 +53,7 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-versions
   - homebrew/cask-fonts
-  - AdoptOpenJDK/openjdk
+#  - AdoptOpenJDK/openjdk
   - PotatoLabs/homebrew-git-redate
 
 homebrew_cask_appdir: /Applications
@@ -67,7 +67,7 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - firefox-developer-edition
   - google-chrome
-  - google-backup-and-sync
+  - google-drive
   - handbrake
   - iina
   - insomnia
