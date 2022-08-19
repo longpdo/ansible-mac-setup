@@ -109,7 +109,7 @@ gem_packages:
   - name: jekyll
     state: latest
 npm_packages:
-  - name: @angular/cli
+  - name: "@angular/cli"
     state: latest
   - name: fkill-cli
     state: latest
