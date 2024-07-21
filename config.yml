@@ -80,7 +80,7 @@ homebrew_cask_apps:
   - microsoft-office
   - microsoft-teams
   - mkvtoolnix
-  - notion
+  - obsidian
   - portfolioperformance
   - qlcolorcode
   - qlmarkdown
@@ -90,12 +90,12 @@ homebrew_cask_apps:
   - rectangle
   - slack
   - the-unarchiver
-  - ticktick
+  - todoist
   - tunnelblick
   - visual-studio-code
   - webstorm
   - whatsapp
-  - zoomus
+  - zoom
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are installed, eg. through homebrew.

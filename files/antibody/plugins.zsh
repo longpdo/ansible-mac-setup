@@ -6,15 +6,13 @@ source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.co
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-hlissner-SLASH-zsh-autopair )
 source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-djui-SLASH-alias-tips/alias-tips.plugin.zsh
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-djui-SLASH-alias-tips )
-source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-trystan2k-SLASH-zsh-tab-title/title.plugin.zsh
+source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-trystan2k-SLASH-zsh-tab-title/zsh-tab-title.plugin.zsh
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-trystan2k-SLASH-zsh-tab-title )
-source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-wbingli-SLASH-zsh-wakatime/zsh-wakatime.plugin.zsh
-fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-wbingli-SLASH-zsh-wakatime )
 source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-autosuggestions )
 source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions/zsh-completions.plugin.zsh
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions )
-source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zdharma-SLASH-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zdharma-SLASH-fast-syntax-highlighting/F-Sy-H.plugin.zsh
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zdharma-SLASH-fast-syntax-highlighting )
-source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zdharma-SLASH-history-search-multi-word/history-search-multi-word.plugin.zsh
+source /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zdharma-SLASH-history-search-multi-word/H-S-MW.plugin.zsh
 fpath+=( /Users/longdo/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zdharma-SLASH-history-search-multi-word )

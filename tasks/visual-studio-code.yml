@@ -1,11 +1,10 @@
 ---
 - name: Install extensions for Visual Studio Code
-  command: "'/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code --install-extension {{ item }}'"
+  command: "\"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code\" --install-extension {{ item }}"
   loop:
     - johnpapa.angular2
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
-    - CoenraadS.bracket-pair-colorizer
     - formulahendry.code-runner
     - streetsidesoftware.code-spell-checker
     - pranaygp.vscode-css-peek
@@ -31,4 +30,3 @@
     - gruntfuggly.todo-tree
     - ms-vscode.vscode-typescript-tslint-plugin
     - chakrounanas.turbo-console-log
-    - wakatime.vscode-wakatime

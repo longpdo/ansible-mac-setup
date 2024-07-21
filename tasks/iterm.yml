@@ -6,4 +6,4 @@
   command: "defaults write com.googlecode.iterm2 PinchToChangeFontSizeDisabled -bool true"
 
 - name: Installing color theme for iTerm (opening file)
-  command: "open \"$HOME/dev/ansible-mac-os-setup/files/iTerm2/Dracula.itermcolors\""
+  command: "open \"$HOME/dev/ansible-mac-setup/files/iTerm/Dracula.itermcolors\""
