@@ -17,19 +17,18 @@ dockitems_persist: []
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - asciidoc
+  - asciidoctor
   - bat
   - coreutils
-  - exa
+  - eza # newer exa
   - fd
   - ffmpeg
   - findutils
   - fzf
   - git
-  - git-redate
-  - jenv
   - jq
   - lua
-  - mackup
   - maven
   - media-info
   - neovim
@@ -58,30 +57,31 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+transmission
+microsoft-auto-update
+spotify
+
   - adoptopenjdk8
   - alfred
   - appcleaner
   - bitwarden
   - chromedriver
   - dropbox
-  - font-hack-nerd-font
-  - firefox-developer-edition
+  - firefox@developer-edition
   - google-chrome
   - google-drive
   - handbrake
   - iina
-  - insomnia
   - intellij-idea
   - iterm2
   - jdownloader
   - kap
-  - kodi
   - losslesscut
   - microsoft-office
   - microsoft-teams
-  - mkvtoolnix
   - obsidian
   - portfolioperformance
+  - postman
   - qlcolorcode
   - qlmarkdown
   - qlstephen
@@ -90,10 +90,8 @@ homebrew_cask_apps:
   - rectangle
   - slack
   - the-unarchiver
-  - todoist
   - tunnelblick
   - visual-studio-code
-  - webstorm
   - whatsapp
   - zoom
 
